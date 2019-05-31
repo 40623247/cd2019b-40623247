@@ -1,10 +1,10 @@
 # 2019協同產品設計實習bg2
-倉儲:https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g2
+倉儲:https://github.com/40623247/cd2019b-40623247
 
-網站:https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g2/content/index.html
+網站:https://40623247.github.io/cd2019b-40623247/content/index.html
 
-BLOG:https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g2/blog/
+BLOG:https://40623247.github.io/cd2019b-40623247/blog/
 
-投影片:https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g2/reveal/
+投影片:https://40623247.github.io/cd2019b-40623247/reveal/
 
 
