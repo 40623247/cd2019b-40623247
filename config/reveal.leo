@@ -24,43 +24,17 @@
 <v t="leo.20190419131456.1" a="E"><vh>封面投影片</vh>
 <v t="leo.20190419131456.2"><vh>封面投影片內容</vh></v>
 </v>
-<v t="leo.20190419014519.1" a="E"><vh>week1</vh>
-<v t="leo.20190419014519.2"><vh>w1</vh></v>
+<v t="leo.20190419014519.1" a="E"><vh>week10</vh>
+<v t="leo.20190419014519.2"><vh>w10</vh></v>
 </v>
-<v t="leo.20190419014518.1"><vh>week2</vh>
-<v t="leo.20190419014518.2"><vh>w2</vh></v>
+<v t="leo.20190419014518.1" a="E"><vh>week11-15</vh>
+<v t="leo.20190419014518.2"><vh>w11-15</vh></v>
 </v>
-<v t="leo.20190419014516.1"><vh>week3</vh>
-<v t="leo.20190419014516.2"><vh>w3</vh></v>
+<v t="leo.20190419014510.1" a="E"><vh>week16</vh>
+<v t="leo.20190419014510.2"><vh>w16</vh></v>
 </v>
-<v t="leo.20190419014515.1"><vh>week4</vh>
-<v t="leo.20190419014515.2"><vh>w4</vh></v>
-</v>
-<v t="leo.20190419014513.1"><vh>week5</vh>
-<v t="leo.20190419014513.2"><vh>w5</vh></v>
-</v>
-<v t="leo.20190419014511.1" a="E"><vh>week6</vh>
-<v t="leo.20190419014511.2"><vh>w6</vh></v>
-</v>
-<v t="leo.20190419014510.1" a="E"><vh>week7</vh>
-<v t="leo.20190419014510.2"><vh>w7</vh></v>
-</v>
-<v t="leo.20190419014508.1" a="E"><vh>week8</vh>
-<v t="leo.20190419014508.2"><vh>w8</vh></v>
-</v>
-<v t="leo.20190419014505.1" a="E"><vh>week9</vh>
-<v t="leo.20190419014505.2"><vh>w9</vh></v>
-</v>
-<v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180902120523.14" a="E"><vh>導入數學符號與方程式</vh>
-<v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
-</v>
-<v t="leo.20180902120523.16" a="E"><vh>導入縮排程式碼</vh>
-<v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
-</v>
-<v t="leo.20180902120523.18" a="E"><vh>導入影片</vh>
-<v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
-</v>
+<v t="leo.20190419014508.1" a="E"><vh>week17</vh>
+<v t="leo.20190419014508.2"><vh>w17</vh></v>
 </v>
 </v>
 </v>
@@ -72,83 +46,6 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.13">&lt;section&gt;
-@others
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20180902120523.14">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180902120523.15"># 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-</t>
-<t tx="leo.20180902120523.16">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20180902120523.17">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
-<t tx="leo.20180902120523.18">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20180902120523.19">## 使用 iframe 導入影片
-
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-</t>
 <t tx="leo.20180902120523.2"></t>
 <t tx="leo.20180902120523.3">@language xml
 @tabwidth -4
@@ -310,20 +207,6 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
-<t tx="leo.20190419014505.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190419014505.2"># Week9
-
-* 期中考週，各組需完成手足球模擬的任務。
-
-</t>
 <t tx="leo.20190419014508.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -333,10 +216,9 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20190419014508.2"># Week8
+<t tx="leo.20190419014508.2"># Week17
 
-* 在更新Blog時無法正常地更改內容，
-原因:在w5的隨身系統裡少了pelican所以無法正確的更新。
+*
 
 </t>
 <t tx="leo.20190419014510.1">&lt;section data-markdown&gt;
@@ -348,73 +230,9 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20190419014510.2"># Week7
+<t tx="leo.20190419014510.2"># Week16
 
-* 清明節連假
-
-
-</t>
-<t tx="leo.20190419014511.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190419014511.2"># Week6
-
-* 閱讀BubbleRob Tutorial，練習使用v-rep模擬。
-
-</t>
-<t tx="leo.20190419014513.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190419014513.2"># Week5
-
-* 在使用.ssh時因為在home底下沒有設置個人rsa檔，
-所以在推送時會發生衝突,只有一開始推成功的人才有權限，
-而在.ssh下的config裡也要設定身分這樣才不會發生衝突。
-
-
-
-</t>
-<t tx="leo.20190419014515.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190419014515.2"># Week4
-
-* 設定在.ssh時所需要用的Public Keys， 這樣可以避免在別人面前推送時打帳密被別人看到， 利用Public Keys在ungit上快速推送。
-
-
-
-</t>
-<t tx="leo.20190419014516.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20190419014516.2"># Week3
-
-* 亂數分組，開始分組任務-手足球模擬。
-* 講解ungit的使用方法。
+* 端午節連假
 
 
 </t>
@@ -427,7 +245,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20190419014518.2"># Week2
+<t tx="leo.20190419014518.2"># Week11-15
 
 * 二二八連假
 
@@ -442,7 +260,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20190419014519.2"># Week1
+<t tx="leo.20190419014519.2"># Week10
 
 * 說明本學期上課內容及評分方式。
 * 學習如何建立可攜程式。
@@ -460,14 +278,14 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20190419131456.2">## 協同產品設計
 
-### 手足球模擬-bg2
+### 手足球模擬-bg2 40623247 廖峻祥
 
 &lt;small&gt;
-Created by [第二組](https://github.com/mdekmol/cd2019b-task1-2019cdb_t1_g2)
+Created by [40623247](https://github.com/40623247/cd2019b-40623247)
 &lt;/small&gt;
 
 &lt;small&gt;
-[BLOG](https://mdekmol.github.io/cd2019b-task1-2019cdb_t1_g2/blog/)
+[BLOG](https://40623247.github.io/cd2019b-40623247/blog/)
 &lt;/small&gt;
 
 </t>
