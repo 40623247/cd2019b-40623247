@@ -281,7 +281,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20190419131456.2">## 協同產品設計期末報告
 
-### 手足球模擬-bg2 40623247 廖峻祥
+### 手足球模擬-bg2 40623247 個人簡報
 
 &lt;small&gt;
 Created by [40623247](https://github.com/40623247/cd2019b-40623247)
