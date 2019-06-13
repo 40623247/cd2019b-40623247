@@ -218,7 +218,7 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20190419014508.2"># Week17
 
-*
+*期末報告
 
 </t>
 <t tx="leo.20190419014510.1">&lt;section data-markdown&gt;
@@ -247,8 +247,10 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20190419014518.2"># Week11-15
 
-* 二二八連假
-
+*全班開始維護一個共同倉儲
+*與組員討論工作分配，開始進行製作
+*利用Pandoc製作PDF
+*維護個人倉儲
 
 </t>
 <t tx="leo.20190419014519.1">&lt;section data-markdown&gt;
@@ -262,8 +264,9 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20190419014519.2"># Week10
 
-* 說明本學期上課內容及評分方式。
-* 學習如何建立可攜程式。
+*開始進行手足球的模擬製作
+*閱讀實習任務3
+*利用老師的程式練習Foosball
 
 
 </t>
@@ -276,7 +279,7 @@ vertical: body pane on the botton</t>
 
 						
 </t>
-<t tx="leo.20190419131456.2">## 協同產品設計
+<t tx="leo.20190419131456.2">## 協同產品設計期末報告
 
 ### 手足球模擬-bg2 40623247 廖峻祥
 
