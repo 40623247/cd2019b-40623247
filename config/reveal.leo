@@ -249,7 +249,6 @@ vertical: body pane on the botton</t>
 
 * 全班開始維護一個共同倉儲
 * 與組員討論工作分配，開始進行製作
-* 利用Pandoc製作PDF
 * 維護個人倉儲
 
 </t>
