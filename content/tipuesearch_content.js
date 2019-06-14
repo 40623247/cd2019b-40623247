@@ -1,1 +1,1 @@
-var tipuesearch = {"pages": [{'title': '簡介', 'text': '', 'tags': '', 'url': '簡介.html'}, {'title': '手足球系統模擬', 'text': '', 'tags': '', 'url': '手足球系統模擬.html'}, {'title': '專案口頭簡報', 'text': '\n', 'tags': '', 'url': '專案口頭簡報.html'}]};
+var tipuesearch = {"pages": [{'title': '簡介', 'text': '', 'tags': '', 'url': '簡介.html'}, {'title': '手足球系統模擬', 'text': '\n \n', 'tags': '', 'url': '手足球系統模擬.html'}, {'title': '期末報告影片', 'text': '\n', 'tags': '', 'url': '期末報告影片.html'}]};
